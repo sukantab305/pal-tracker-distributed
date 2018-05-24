@@ -4,7 +4,8 @@ applications:
   host: timesheets-pal-sukantab
   memory: 1G
   instances: 1
-  env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-sukantab.apps.evans.pal.pivotal.io
+#  env:
+#    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-sukantab.apps.evans.pal.pivotal.io
   services:
   - tracker-timesheets-database
+  - tracker-service-registry
